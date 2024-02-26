@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, #12100e, #2b4162);
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container div {
+    display: block;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 400px;
+    width: 300px;
+    background-image: linear-gradient(to bottom, #c3cbdc, #c357fa);
+}
+.counter {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 20px 0px;
+}
+.container div a {
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    padding: 8px 0px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    margin-left: 33.33px;
+    margin-top: 50px;
+    font-weight: bold;
+    transition: box-shadow 0.3s;
+    color: rgb(247, 238, 238);
+}
+.increase-btn {
+    background-image: linear-gradient(#a2d240, #1b8b00);
+}
+.decrease-btn {
+    background-image: linear-gradient(rgb(250, 29, 29), #eb410e);    
+}
+.save-btn {
+    background-image: linear-gradient(rgb(17, 95, 241), #0eebeb);
+}
+.clear-btn {
+    background-image: linear-gradient(rgb(250, 29, 114), #eb0ea9);
+}
+.btn:hover {
+    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.4);
+}
+
+#history {
+    font-size: 1.4rem;
+    margin-left: 33.33px;
+    margin-top: 50px;
+}
